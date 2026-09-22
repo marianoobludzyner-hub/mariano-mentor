@@ -4,11 +4,12 @@ An installable post-sales mentor for B2B SaaS founders and CEOs: a discovery ski
 
 [![License](https://img.shields.io/badge/license-MIT-0b0b0b)](LICENSE)
 [![Part of](https://img.shields.io/badge/part%20of-SHIFT%20Method-eb6834)](https://github.com/marianoobludzyner-hub)
-[![Format](https://img.shields.io/badge/format-Claude%20Skill%20%2B%20Project-2a78d6)](mentor/SKILL.md)
+[![Claude](https://img.shields.io/badge/Claude-Skill%20%2B%20Project-2a78d6)](mentor/SKILL.md)
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-Custom%20GPT-0ca30c)](gpt/CUSTOM_GPT_INSTRUCTIONS_MENTOR.md)
 
 **Jump to:** [What you get](#what-you-get) | [Who this is for](#who-this-is-for) | [Why this project](#why-this-project) | [Worked example](#worked-example) | [How to set it up](#how-to-set-it-up) | [How this connects to Obludzyner and Co.](#how-this-connects-to-obludzyner-and-co)
 
-Part of the same open-source series as [nrr-leak-diagnostic](https://github.com/marianoobludzyner-hub/nrr-leak-diagnostic), [renewal-risk-rollup](https://github.com/marianoobludzyner-hub/renewal-risk-rollup), and [call-proactivity-analyzer](https://github.com/marianoobludzyner-hub/call-proactivity-analyzer), by [Mariano Obludzyner](https://github.com/marianoobludzyner-hub), founder of Obludzyner & Co. Those three analyze data. This one is different in kind: it's an installable advisor, not a calculator.
+Part of the same open-source series as [nrr-leak-diagnostic](https://github.com/marianoobludzyner-hub/nrr-leak-diagnostic), [renewal-risk-rollup](https://github.com/marianoobludzyner-hub/renewal-risk-rollup), [account-x-ray](https://github.com/marianoobludzyner-hub/account-x-ray), and [call-proactivity-analyzer](https://github.com/marianoobludzyner-hub/call-proactivity-analyzer), by [Mariano Obludzyner](https://github.com/marianoobludzyner-hub), founder of Obludzyner & Co. Those four analyze data. This one is different in kind: it's an installable advisor, not a calculator.
 
 <p align="center">
   <img src="examples/flow-diagram.png" alt="Flow: discovery skill produces 5 files, uploaded to a Claude Project, read by the Mariano Mentor skill, which gives grounded advice" width="720">
@@ -39,13 +40,23 @@ See the full exchange in [`examples/sample-mentor-exchange.md`](examples/sample-
 
 ## How to set it up
 
+Works the same two-step way in either Claude or ChatGPT: run discovery once, then load the result into the mentor.
+
+**With Claude:**
+
 1. **Run the discovery skill.** Drop the `discovery/` folder into your Claude Code or Claude Desktop skills directory, then ask: *"run the post-sales discovery."* Answer the questions, save the 5 files it gives you at the end.
 2. **Create a Claude Project.** Name it something like "Mariano Mentor" or "[Your Company] Post-Sales Advisor."
 3. **Upload the 5 files** from step 1 as that Project's knowledge.
 4. **Add the `mentor/` skill** to the Project (or your Claude Code/Desktop skills directory if it applies project-wide).
 5. **Ask it anything post-sales related.** *"Should I hire a CS lead?" "My NRR dropped, what do I look at first?" "A big account is escalating, how do I think about this?"*
 
-No installation beyond that. Both skills are pure markdown instructions, no scripts, no dependencies.
+**With ChatGPT:**
+
+1. **Create the discovery GPT.** See [`gpt/CUSTOM_GPT_INSTRUCTIONS_DISCOVERY.md`](gpt/CUSTOM_GPT_INSTRUCTIONS_DISCOVERY.md) - paste the instructions into a new Custom GPT (Code Interpreter enabled), run the interview, download the 5 files.
+2. **Create the mentor GPT.** See [`gpt/CUSTOM_GPT_INSTRUCTIONS_MENTOR.md`](gpt/CUSTOM_GPT_INSTRUCTIONS_MENTOR.md) - paste the instructions into a second Custom GPT, and **upload the 5 files from step 1 as its Knowledge**.
+3. **Ask it anything post-sales related**, same as above.
+
+No installation beyond that, either way. Both skills are pure markdown instructions, no scripts, no dependencies.
 
 Want to see the flow diagram regenerated, or build your own version? [`render_diagram.py`](render_diagram.py) is the optional matplotlib script that produced the image above (`pip install matplotlib`, then `python3 render_diagram.py`) - not required to use either skill.
 
