@@ -20,7 +20,7 @@ Part of the same open-source series as [nrr-leak-diagnostic](https://github.com/
 - **A discovery skill** - a structured, one-question-at-a-time interview about your company, your post-sales motion, your real numbers, your team, and your goals
 - **Five synthesis files** - not a transcript, a consultant-style write-up of what was learned, ready to upload as Claude Project knowledge
 - **A mentor skill** - once installed alongside those files, gives you Mariano's direct read on any post-sales decision, using his actual documented framework (Theory of Constraints, the SHIFT Method, the 5 pains), not generic AI advice
-- **Grounded, not generic** - every diagnosis references your specific numbers and situation from the discovery files, not a template answer
+- **Grounded, not generic** - every read references your specific numbers and situation from the discovery files, not a template answer
 
 ## Who this is for
 
@@ -64,7 +64,7 @@ Want to see the flow diagram regenerated, or build your own version? [`render_di
 
 This is the open-source, self-serve shadow of what Obludzyner & Co. actually does: a Revenue Audit that starts with real discovery, not assumptions, and advice grounded in Theory of Constraints, not a generic playbook. The discovery pattern here is adapted from the exact interview structure used internally to build client context before a real engagement.
 
-**What changes with a real engagement:** the mentor above can diagnose and point you in a direction, but it cannot look at your actual account-level data, align your leadership team, install playbooks with your team, or deploy AI infrastructure into your real workflow, that's the H, I, F, and T of the SHIFT Method, and none of them happen in a chat window. If the mentor's read on your situation lands, or if it surfaces something uncomfortable, that's exactly what a real Revenue Audit is for. [Start the diagnostic](https://obludzyner.com/diagnostic) or [book a conversation](https://obludzyner.com/#contact).
+**What changes with a real engagement:** the mentor above can read your situation and point you in a direction, but it cannot look at your actual account-level data, align your leadership team, install playbooks with your team, or deploy AI infrastructure into your real workflow, that's the H, I, F, and T of the SHIFT Method, and none of them happen in a chat window. If the mentor's read on your situation lands, or if it surfaces something uncomfortable, that's exactly what a real Revenue Audit is for. [Start the diagnostic](https://obludzyner.com/diagnostic) or [book a conversation](https://obludzyner.com/#contact).
 
 ## What this is not
 
