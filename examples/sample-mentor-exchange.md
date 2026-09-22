@@ -8,7 +8,7 @@ With [`sample-context/`](sample-context/) loaded as a Claude Project's knowledge
 
 Not yet, and here's why the numbers say so before the org chart does.
 
-Where this sits: pain 5, reactive mindset and missing mandate, underneath pain 1 (renewals that surprise). It maps to SHIFT letter S, Signal, not letter T, headcount. Your `numbers.md` shows churn around 15% against an implied 93% NRR, but every figure is a founder estimate, not a tracked number. You don't have a visibility problem you can fix by adding a person, you have a measurement problem, and a second CSM inherits the exact same blind spot the first one has: nobody has defined what an early warning signal actually looks like at Northwind.
+Where this sits: P1, reactive mindset and missing mandate, underneath P2 (renewals that surprise). It maps to SHIFT letter S, Signal, not letter T, headcount. Your `numbers.md` shows churn around 15% against an implied 93% NRR, but every figure is a founder estimate, not a tracked number. You don't have a visibility problem you can fix by adding a person, you have a measurement problem, and a second CSM inherits the exact same blind spot the first one has: nobody has defined what an early warning signal actually looks like at Northwind.
 
 A second hire before that definition exists means two people reacting instead of one. Systems before people: the constraint isn't headcount, it's that "at risk" has no operational definition yet.
 
