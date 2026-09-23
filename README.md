@@ -19,7 +19,7 @@ Part of the same open-source series as [nrr-leak-diagnostic](https://github.com/
 
 - **A discovery skill** - a structured, one-question-at-a-time interview about your company, your post-sales motion, your real numbers, your team, and your goals
 - **Five synthesis files** - not a transcript, a consultant-style write-up of what was learned, ready to upload as Claude Project knowledge
-- **A mentor skill** - once installed alongside those files, gives you Mariano's direct read on any post-sales decision, using his actual documented framework (Theory of Constraints, the SHIFT Method, the 5 pains), not generic AI advice
+- **A mentor skill** - once installed alongside those files, gives you Mariano's direct read on any post-sales decision, using his actual documented framework (Theory of Constraints, the SHIFT Method, the 5 pains), not generic AI advice. It's built to push, not just describe: it asks the question you're avoiding and names it plainly when a decision has been stalling, not just the situation you already see
 - **Grounded, not generic** - every read references your specific numbers and situation from the discovery files, not a template answer
 
 ## Who this is for
